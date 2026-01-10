@@ -17,7 +17,8 @@ public class ArifmOper {
     public static double div(int a, int b) {
         if (b == 0) {
             throw new ArithmeticException("Деление на ноль. Нельзя вычислить частное");
+        } else {
+            return (double) a / b;
         }
-        return (double) a / b;
     }
 }
